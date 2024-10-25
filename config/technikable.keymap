@@ -50,10 +50,10 @@
         Colemakdhm {
             label = "Base";
             bindings = <
-&kp Q        &kp W               &kp F      &kp P      &kp B        &none                   &none            &kp J         &kp L            &kp U                &kp Y                     &kp SQT
-&kp A        &kp R               &kp S      &kp T      &kp G        &to 3                   &none            &kp M         &kp N            &kp E                &kp I                     &kp O
-&mt LSHFT Z  &mt LEFT_CONTROL X  &kp C      &kp D      &kp V        &mo 1                   &mo 2            &kp K         &kp H            &mt RIGHT_ALT COMMA  &mt RIGHT_CONTROL PERIOD  &mt RIGHT_SHIFT SLASH
-                                 &lt 0 ESC  &lt 0 TAB  &lt 1 SPACE  &lt 1 SPACE  &lt 2 RET  &lt 2 BACKSPACE  &lt 1 DELETE  &lt 2 RIGHT_WIN
+&kp Q        &kp W               &kp F    &kp P    &kp B      &none                   &none      &kp J     &kp L       &kp U                &kp Y                     &kp SQT
+&kp A        &kp R               &kp S    &kp T    &kp G      &to 3                   &none      &kp M     &kp N       &kp E                &kp I                     &kp O
+&mt LSHFT Z  &mt LEFT_CONTROL X  &kp C    &kp D    &kp V      &mo 1                   &mo 2      &kp K     &kp H       &mt RIGHT_ALT COMMA  &mt RIGHT_CONTROL PERIOD  &mt RIGHT_SHIFT SLASH
+                                 &kp ESC  &kp TAB  &kp SPACE  &lt 1 SPACE  &lt 2 RET  &kp ENTER  &kp BSPC  &kp DELETE
             >;
         };
 
