@@ -79,10 +79,10 @@
 
         Keypad {
             bindings = <
-&kp GRAVE  &kp        &kp       &kp       &kp        &kp         &kp  &kp KP_NUMLOCK   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS
-&kp CAPS   &kp        &kp       &kp       &kp        &kp         &kp  &kp KP_MULTIPLY  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS
-&kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &kp        &kp         &kp  &kp KP_DIVIDE    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ENTER
-                      &kp ESC   &kp TAB   &kp SPACE  &to 0  &kp  &kp  &kp KP_NUMBER_0  &kp KP_DOT
+&kp GRAVE  &none      &none     &none     &none      &none         &none  &kp KP_NUMLOCK   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS
+&kp CAPS   &none      &none     &none     &none      &none         &none  &kp KP_MULTIPLY  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS
+&kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &none      &none         &none  &kp KP_DIVIDE    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ENTER
+                      &kp ESC   &kp TAB   &kp SPACE  &to 0  &none  &none  &kp KP_NUMBER_0  &kp KP_DOT
             >;
         };
 
@@ -92,6 +92,15 @@
 &kp LEFT_CONTROL  &kp A  &kp S    &kp D           &kp F  &kp G                 &kp H     &kp J       &kp K      &kp L    &kp SEMI  &kp APOS
 &kp LEFT_SHIFT    &kp Z  &kp X    &kp C           &kp V  &kp B                 &kp N     &kp M       &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
                          &kp ESC  &lt 2 LEFT_ALT  &mo 1  &kp SPACE  &kp ENTER  &kp BSPC  &kp DELETE  &to 0
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
