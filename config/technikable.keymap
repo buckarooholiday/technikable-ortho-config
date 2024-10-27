@@ -42,6 +42,7 @@
         Qwerty {
             bindings = <&to 4>;
             key-positions = <39 40>;
+            layers = <0 2 1 3>;
         };
     };
 
